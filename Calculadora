@@ -1,0 +1,23 @@
+def calc():
+    ligar = input('Ligar calculadora (s/n): ')
+
+    while ligar == 's':
+        num1 = float(input('Digite o primeiro valor: '))
+        num2 = float(input('Digite o segundo valor: '))
+
+        operacao = input('Escolha uma operação (soma/sub/div/mult): ')
+
+        if operacao == 'soma':
+            soma = num1 + num2
+            print(f'A soma entre {num1} e {num2} é {soma}')
+        elif operacao == 'sub':
+            sub = num1 - num2
+            print(f'A subtração entre {num1} e {num2} é {sub}')
+        elif operacao == 'div':
+            div = num1 / num2
+            print(f'A divisão entre {num1} e {num2} é {div}')
+        elif operacao == 'mult':
+            mult = num1 * num2
+            print(f'A multiplicação entre {num1} e {num2} é {mult}')
+        ligar = input('Ligar calculadora (s/n): ')
+calc()
