@@ -1,2 +1,2 @@
 # MeusProjetos
-Pequenos projetos para pratica
+Pequenos projetos para pratica de Python
