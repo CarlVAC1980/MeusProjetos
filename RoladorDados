@@ -1,0 +1,19 @@
+import random
+
+
+def dice():
+
+    n = int(input("Digite as faces do dados: "))
+
+    x = int(input("Quantos dados você quer jogar? "))
+
+    while n != 0:
+        for i in range(1, x+1):
+            d = random.randint(1, n)
+
+            print(d)
+
+        return
+
+
+dice()
